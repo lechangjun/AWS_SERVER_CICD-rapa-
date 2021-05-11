@@ -1,0 +1,2 @@
+# AWS_Attribute_SERVER
+AWS_CICD_Attribute
