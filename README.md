@@ -1,6 +1,3 @@
-# AWS_Attribute_SERVER
-AWS_CICD_Attribute
-
 
 AWS_Attribute_SERVER (웝페이지 자동 배포 저장소)
 ==================================================
