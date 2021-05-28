@@ -5,7 +5,7 @@
 > 3. 파이썬을 활용한 배포 환경 구축 ( aws )
 
 
-- [학습내용](#-학습내용)
+- [학습내용]
   - 포트폴리오 정리 웹사이트 생성
   - dev ops [ansible + packer (packer hashicorp)]
   - Terraform ( aws + azure ) 파이썬을 활용한 배포 자동화
