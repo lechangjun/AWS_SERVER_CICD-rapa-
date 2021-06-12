@@ -1,0 +1,42 @@
+---
+- name: initial setup
+  hosts: all
+  become: true
+  gather_facts: false
+
+  tasks:
+          - name: init motd file
+            copy:
+                    content: ''
+                    dest: /etc/motd
+          - name: copy script
+            copy:
+                    src: ../scripts/motd.py
+                    dest: /opt/motd.py
+          - name: copy service file
+            copy:
+                    src: ../service/motd.service
+                    dest: /etc/systemd/system/motd.service
+          - name: copy timer file
+            copy:
+                    src: ../service/motd.timer
+                    dest: /etc/systemd/system/motd.timer
+          - name: start motd service
+            systemd:
+                    name: motd.service
+                    state: started
+                    enabled: yes
+          - name: start motd timer
+            systemd:
+                    name: motd.timer
+                    state: started
+                    enabled: yes
+          - name: display motd on initial login
+            lineinfile:
+                    path: /etc/bashrc
+                    line: echo "$(</etc/motd)"
+          - name: addsometext in somefile
+            copy:
+                    content: 'addsometext'
+                    dest: /var/test
+

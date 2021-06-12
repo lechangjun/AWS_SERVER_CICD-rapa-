@@ -1,0 +1,9 @@
+[Unit]
+Description=motd service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python /opt/motd.py
+
+[Install]
+WantedBy=multi-user.target
