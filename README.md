@@ -1,5 +1,5 @@
 
-# 🐳AWS_WEB_SERVER (웝페이지 저장소)🐳
+# 🐳AWS_WEB_SERVER (웝페이지 저장소)
 
 > 1. 웹 페이지 생성 ( startbootstrap-freelancer-gh-pages 완성 )
 > 2. aws ec2 관리 (go 언어)
