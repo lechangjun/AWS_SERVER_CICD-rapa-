@@ -11,6 +11,24 @@
   - dev ops [ansible + packer (packer hashicorp)]
   - Terraform ( aws + azure ) 파이썬을 활용한 배포 자동화
   - game 개발 자료 공유
+*  게임 dev ops [ansible + packer (packer hashicorp)]
+* Terraform ( aws + azure )
+
+What ?
+------------------
+포폴 목표
+------------------
+
+1. 유니티
+2. 언리얼
+3. 다이렉트2d
+4. 다이렉트3d
+5. OpenShift
+6. 서버 
+
+
+
+
 
 
 ### 🔥 참고 
