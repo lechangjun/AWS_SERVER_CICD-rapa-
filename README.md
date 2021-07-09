@@ -1,5 +1,5 @@
 
-# 🐳AWS_WEB_SERVER (웝페이지 저장소)
+# 🐳 AWS_WEB_SERVER (웝페이지 저장소)
 
  ### 생성 목적 
  
@@ -29,8 +29,6 @@ PORTFOLIO
 4. 다이렉트3d
 5. OpenShift
 6. 서버 
-
-
 
 
 
