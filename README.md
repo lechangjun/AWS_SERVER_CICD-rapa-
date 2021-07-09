@@ -1,22 +1,26 @@
 
 # 🐳AWS_WEB_SERVER (웝페이지 저장소)
 
-> 1. 웹 페이지 생성 ( startbootstrap-freelancer-gh-pages 완성 )
-> 2. aws ec2 관리 (go 언어)
-> 3. game 개발 자료 공유
+ ### 생성 목적 
+ 
+> 1. 웹 ( startbootstrap-freelancer-gh-pages )
+> 2. aws ec2 관리 (go 언어 && 파이썬)
+> 3. Game 개발 자료 공유
 
 
-- [웹사이트 내용]
-  - 포트폴리오 정리 웹사이트 생성
+####  [포트폴리오 내용]
+ 
   - dev ops [ansible + packer (packer hashicorp)]
-  - Terraform ( aws + azure ) 파이썬을 활용한 배포 자동화
+  - server ( C++ && GO )
   - game 개발 자료 공유
-*  게임 dev ops [ansible + packer (packer hashicorp)]
-* Terraform ( aws + azure )
 
-What ?
+#### VM 관리 _  ansible && packer + Terraform 사용
+
+
 ------------------
-포폴 목표
+ ?
+------------------
+PORTFOLIO
 ------------------
 
 1. 유니티
